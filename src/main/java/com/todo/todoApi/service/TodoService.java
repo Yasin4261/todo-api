@@ -15,4 +15,10 @@ public class TodoService {
         return todoRepository.save(todo);
     }
 
+    public void deleteTodoById(Long id ) {
+        Todo todo = todoRepository.findById(id)
+                .orElseThrow(()-> new RuntimeException("Todo not found"));
+        todoRepository.delete(todo);
+    }
+
 }
