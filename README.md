@@ -53,13 +53,6 @@ Bu proje, kullanıcıların yapılacaklar listelerini yönetmelerini sağlar.
 
 API'lerinizi [Swagger UI](http://localhost:8080/swagger-ui.html) üzerinden görüntüleyebilirsiniz.
 
-## API Kullanımı
-
-- `POST /api/users`: Kullanıcı oluşturur.
-- `GET /api/users`: Kullanıcıları listeler.
-- `POST /api/todos`: Todo oluşturur.
-- `GET /api/todos`: Todo'ları listeler.
-
 ## Katkıda Bulunanlar
 
 - [Yasin](https://github.com/Yasin4261)
