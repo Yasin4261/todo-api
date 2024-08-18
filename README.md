@@ -22,28 +22,28 @@ Bu proje, kullanıcıların yapılacaklar listelerini yönetmelerini sağlar.
 1. Depoyu klonlayın:
 
     ```bash
-    git clone https://github.com/kullanici-adi/todo-api.git
+    git clone https://github.com/Yasin4261/todo-api.git
     ```
 
-2. Proje dizinine gidin:
+2. Docker ile veritabanı başlatın:
+
+   ```bash
+   docker run --name todo-mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todo_api -p 3308:3306 -d mysql:latest
+   ```
+
+3. Proje dizinine gidin:
 
     ```bash
     cd todo-api
     ```
 
-3. Bağımlılıkları yükleyin:
+4. Bağımlılıkları yükleyin:
 
     ```bash
     ./mvnw install
     ```
 
-4. Docker ile veritabanı başlatın:
-
-5. ```bash
-   docker run --name todo-mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todo_api -p 3306:3306 -d mysql:latest
-   ```
-
-6. Uygulamayı çalıştırın:
+5. Uygulamayı çalıştırın:
 
     ```bash
     ./mvnw spring-boot:run
