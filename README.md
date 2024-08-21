@@ -39,11 +39,11 @@ Bu proje, kullanıcıların yapılacaklar listelerini yönetmelerini sağlar.
 
 4. Docker ile veritabanı başlatın:
 
-5. ```bash
+   ```bash
    docker run --name todo-mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todo_api -p 3306:3306 -d mysql:latest
    ```
 
-6. Uygulamayı çalıştırın:
+5. Uygulamayı çalıştırın:
 
     ```bash
     ./mvnw spring-boot:run
