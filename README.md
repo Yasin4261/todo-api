@@ -22,7 +22,7 @@ Bu proje, kullanıcıların yapılacaklar listelerini yönetmelerini sağlar.
 1. Depoyu klonlayın:
 
     ```bash
-    git clone https://github.com/kullanici-adi/todo-api.git
+    git clone git@github.com:Yasin4261/todo-api.git
     ```
 
 2. Proje dizinine gidin:
