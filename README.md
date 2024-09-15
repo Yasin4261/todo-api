@@ -63,7 +63,7 @@ API'lerinizi [Swagger UI](http://localhost:8080/swagger-ui.html) üzerinden gör
 ## Katkıda Bulunanlar
 
 - [Yasin](https://github.com/Yasin4261)
-- [Ahmet](https://github.com/AhmetEminSaglik)
+- [Ahmet Emin Sağlık](https://github.com/AhmetEminSaglik)
 
 ## Lisans
 
