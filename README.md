@@ -22,11 +22,8 @@ Bu proje, kullanıcıların yapılacaklar listelerini yönetmelerini sağlar.
 1. Depoyu klonlayın:
 
     ```bash
-<<<<<<< HEAD
     git clone https://github.com/Yasin4261/todo-api.git
-=======
     git clone git@github.com:Yasin4261/todo-api.git
->>>>>>> ce146aa40151811ba0aab4421593023bdb0da9d6
     ```
 
 2. Docker ile veritabanı başlatın:
@@ -47,15 +44,12 @@ Bu proje, kullanıcıların yapılacaklar listelerini yönetmelerini sağlar.
     ./mvnw install
     ```
 
-<<<<<<< HEAD
-=======
 4. Docker ile veritabanı başlatın:
 
    ```bash
    docker run --name todo-mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=todo_api -p 3306:3306 -d mysql:latest
    ```
 
->>>>>>> ce146aa40151811ba0aab4421593023bdb0da9d6
 5. Uygulamayı çalıştırın:
 
     ```bash
@@ -69,6 +63,7 @@ API'lerinizi [Swagger UI](http://localhost:8080/swagger-ui.html) üzerinden gör
 ## Katkıda Bulunanlar
 
 - [Yasin](https://github.com/Yasin4261)
+- [Ahmet](https://github.com/AhmetEminSaglik)
 
 ## Lisans
 
